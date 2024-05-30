@@ -1,0 +1,70 @@
+.tour {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  width: 16vw;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.tour:hover {
+  transform: scale(1.02);
+}
+
+.tour-image {
+  position: relative;
+  width: 50vw;
+  height: 50vh;
+}
+.img {
+  width: 50vw;
+  height: 50vh;
+}
+.tour-price {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.tour-info {
+  padding: 15px;
+}
+
+.tour-info h5 {
+  margin-bottom: 10px;
+}
+
+.tour-info p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.info-btn {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #cb210e;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #ec7914;
+}
